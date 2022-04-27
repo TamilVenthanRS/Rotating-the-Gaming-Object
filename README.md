@@ -38,6 +38,28 @@ Stop
 
 ## Program:
 
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NewBehaviourScript : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right,Vector3.up,40*Time.deltaTime);
+    }
+}
+
+
 ## Output:
+![2022-04-27 at 9 20 35 AM](https://user-images.githubusercontent.com/75235477/165436921-12f7b118-ab36-4a6b-a0dd-64d12a841392.jpeg)
+
 
 ## Result:
