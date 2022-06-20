@@ -1,5 +1,6 @@
-# Rotating-the-Gaming-Object
-
+### EX NO:01 
+### DATE: 
+# <p align="center"> Rotating the Gaming Object</p>
 ## Aim:
 To develop a 3D application for rotating the gaming objects in unity.
 ## Algorithm:
@@ -16,13 +17,6 @@ Hierarchy -> Effects -> Particle system
 Create a folder in project and name as Materials
 Material folder -> Create -> Material (Name: Cylinder)
 Inspector ->Surface Inputs ->BaseMAp (Choose the color)
-Drag the Cylinder to the plane and release the mouse
-
-Create a folder in project and name as Materials
-Material folder -> Create -> Material (Name: Capsule)
-Inspector ->Surface Inputs ->BaseMAp (Choose the color)
-Drag the Capsule to the plane and release the mouse
-
 ### Start5:
 Click Hierarchy -> DirectionalLight
 Inspector -> Change the color to white (255,255,255)
@@ -44,13 +38,10 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         transform.RotateAround(Vector3.right,Vector3.up,40*Time.deltaTime);
